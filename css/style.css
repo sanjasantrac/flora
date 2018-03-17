@@ -1,0 +1,421 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Montserat', sans-serif;
+}
+.wrapper{
+	height: auto;
+}
+header{
+	position: absolute;
+	width: 100%;
+}
+.side-nav{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	width:60%;
+	height: 70px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.side-nav li{
+	text-transform: uppercase;
+	border-right: 1px solid #646464;
+	font-size: 16px;
+	height: 20px;
+	width: 100%;
+	padding:0 15px;
+	z-index: 100;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.side-nav li:nth-child(5){
+	border-right: none;
+}
+.side-nav li:hover{
+	color: #646464;
+}
+.hero{
+	
+	background:url("../photos/hero11.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.cube{
+	
+	margin:auto;
+  	transform-origin: 50% 50%;
+  	transform: rotate(45deg) translateY(10px) scale(1.5);
+  	overflow: hidden;
+  	width: 250px;
+  	height: 250px;
+	margin:0 auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.cube-content{
+	width: 355px;
+  	height: 355px;
+  	transform: rotate(-45deg) translateY(-74px);
+  	background:url("../photos/hero11.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.cube-content p{
+  	width: 40%;
+  	text-align: center;
+  	line-height: 25px;
+  	letter-spacing: 2px;
+  	color: #c9cacc;
+}
+.cube-content h1{
+	font-size: 48px;
+	color: #c9cacc;
+	letter-spacing: 2px;
+	font-weight: lighter;
+}
+.about{
+	height: auto;
+	
+}
+.about h1{
+	text-align: center;
+	letter-spacing: 2px;
+	color: #491413;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+.about div{
+	margin: 0 auto;
+	text-align: justify; /* For Edge */
+    -moz-text-align-last: left; /* For Firefox prior 58.0 */
+    text-align-last: left;
+}
+.about-text{
+	width: 70%;
+	line-height: 20px;
+  	letter-spacing: 1px;
+  	margin: auto;
+  	line-height: 25px;
+}
+
+.about-text-last{
+	width: 70%;	
+	margin: auto;
+	font-style: oblique;
+}
+.pattern{
+	margin-top: 40px;
+	background:url("../photos/visibaba.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 180px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+.pattern h1{
+	opacity: 1;
+	color: #242424;
+	font-size: 50px;
+	
+}
+.services{
+	display: flex;
+	flex-direction: column;
+	background: #e8e3e3;
+}
+.services section{
+	width: 40%;
+	margin:20px auto;
+	background: white;
+	text-align: center;
+	padding-top: 20px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.services section p{
+	width: 40%;
+	padding:20px 0;
+	margin: auto;
+	line-height: 25px;
+
+}
+.services section h3{
+	letter-spacing: 1px;
+	color: #491413;
+}
+.fa-tint, .fa-lightbulb{
+	color: #646464;
+	font-size: 20px;
+
+}
+.garden{
+	display: flex;
+	height: 400px;
+	align-items: center;
+	margin-bottom: 50px;
+	/*background: #364f2e;*/
+	color: #242424;
+
+}
+.garden-cover{
+	background:url("../photos/tulip.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 50%;
+
+
+
+}
+.garden-content{
+	width: 40%;
+	margin: auto;
+	line-height: 25px;
+
+
+	
+}
+.gallery{
+	width: 100%;
+	margin:auto;
+	display: flex;
+	flex-direction: column;
+
+}
+.gallery h1{
+	text-align: center;
+	letter-spacing: 2px;
+	color: #491413;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+.gallery section{
+	width: 90%;
+	height: 400px;
+	margin: auto;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border:1px solid white;
+	background-position:center;
+	transition: all 1s ease;
+	opacity: .9;
+ 	
+}
+.gallery section h2{
+	letter-spacing: 2px;
+  	color: #242424;
+}
+.gallery section p{
+	color: #242424;
+}
+.first{
+	background:url("../photos/first.jpg");
+
+}
+.second{
+	background:url("../photos/second.jpeg");
+
+}
+
+.third{
+	background:url("../photos/third.jpg");
+
+}
+
+.fourth{
+	background:url("../photos/fourth.jpg");
+
+}
+.fifth{
+	background:url("../photos/fift.jpg");
+
+}
+.six{
+	background:url("../photos/six.jpg");
+
+}
+.contact-section {
+	width: 80%;
+	padding: 7px;
+	margin: auto;
+	
+}
+
+.contact-section h1{
+	text-align: center;
+	letter-spacing: 2px;
+	color: #491413;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+.contact-section input{
+	width: 100%;
+	border: none;
+	border-bottom: 3px solid #242424;
+	padding-bottom: 10px;
+	font-size: 12px;
+	letter-spacing: 4px;
+	color: black;
+	padding-top: 15px;
+	font-weight: bold;
+}
+
+input[type=select]{
+	width: 100%;
+	float: right;
+
+	
+
+}
+input::placeholder{
+	color: #021b44;
+
+}
+
+input[type=select]::placeholder {
+	color:#491413; 
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+#buttonSend {
+	border: none;
+	background: #491413;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+#buttonSend:hover{
+	opacity: 0.7;
+}
+
+
+.contact-details h2{
+	font-size: 20px;
+
+}
+.contact-details{
+	
+	
+}
+.contact-details p { 
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: #242424; 
+
+}
+footer{
+	background: #010f00;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 35px;
+	color: white;
+	font-size: 12px;
+	margin-top: 70px;
+
+}
+
+
+
+@media only screen and (min-width: 993px){
+	.hero{
+		height: 100vh;
+	}
+	.about div{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	}
+
+	.about-text{
+		width: 30%;
+	}
+
+	.about-text-last{
+		margin-top: 20px;
+		width: 60%;
+		text-align: center;
+		text-align-last: center;
+		line-height: 25px;
+	}
+	.services{
+		flex-direction: row;
+		
+	}
+	.services section{
+		width: 25%;
+		height: 450px;
+
+	}
+	.services section p{
+		width: 60%;
+		text-align: justify;
+	}
+	.gallery{
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: auto;
+	}
+	.gallery h1{
+		width: 100%;
+	}
+	.gallery section{
+		width: 49%;
+	}
+	.contact-section{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.contact-section h1{
+		width: 100%;
+	}
+	.contact-form{
+		width:60%;
+	}
+	.contact-details{
+		width:35%;
+	}
+
+}
+@media only screen and (min-width: 1157px){
+	.services section{
+		height: 400px;
+	}
+	.gallery section{
+		width: 33%;
+		border-right: none;
+		
+	}
+
+	
+}
